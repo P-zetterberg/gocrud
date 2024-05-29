@@ -1,0 +1,27 @@
+### get all 
+GET http://localhost:8080/getUsers
+
+### post employee
+POST http://localhost:8080/addUser 
+Content-Type: application/json
+
+{
+
+    "id":7,"age":12, "city":"Nacka", "name": "KAOS"
+
+}
+
+### get Josefine 
+GET http://localhost:8081/api/employee/3
+
+### Update user
+PUT http://localhost:8080/updateUser
+Content-Type: application/json
+
+{
+
+    "id":7,"age":12, "city":"Nacka", "name": "UPDATED"
+
+}
+### Delete user by id
+DELETE http://localhost:8080/deleteUser/2
